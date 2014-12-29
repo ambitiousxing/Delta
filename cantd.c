@@ -377,19 +377,6 @@ static void CtProcessRequstMaster(void)
         {
             CtSendPing(CtData.Pm[cnt].AssignId);           
             step = 0;
-            
-            /*
-            if((++CtData.ModuleCnt) >= Cr_Pm_Num)
-            {
-                //McData.Run.Sdn.Bits.PmTout = 0;
-              
-            }
-            else
-            {             
-                CtData.Sta.Bits.IsrRun = 1;
-                
-            }
-            */
             if((++CtData.ModuleCnt) < Cr_Pm_Num)
             {
                 CtData.Sta.Bits.IsrRun = 1;            
