@@ -256,8 +256,7 @@ struct CtDataS
             INT8U :5;
             
         }Bits;
-    }Sta;
-    
+    }Sta;   
     INT8U ModuleCnt;
     struct
     {
